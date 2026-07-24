@@ -4,8 +4,3 @@ framework module WalleePaymentSdk {
 
   module * { export * }
 }
-
-module WalleePaymentSdk.Swift {
-  header "WalleePaymentSdk-Swift.h"
-  requires objc
-}
